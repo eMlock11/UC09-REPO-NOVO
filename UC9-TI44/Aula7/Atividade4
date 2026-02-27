@@ -1,0 +1,15 @@
+const input = require("../input");
+
+(async () => {      
+
+    let agenda = []
+    let cont
+
+do{
+    
+    console.log("Por favor insira o seu nome e número de telefone: ")
+
+
+}while(agenda.length <=5 && cont == "s")
+
+})();

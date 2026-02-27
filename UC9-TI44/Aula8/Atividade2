@@ -1,0 +1,21 @@
+const input = require("../input");
+
+const { validarCPF } = require("./jonas");
+
+(async () => {
+
+    console.log("Por favor insira seu CPF nesse site muito confiável e nem um pouco suspeito")
+
+    let cpf = await input ();
+
+    if(validarCPF(cpf)){
+
+        console.log("Seu cpf é valido tirarei um CB650 no seu nome muito obrigado")
+
+    }else{
+
+        console.log("Seu cpf é invalido seu fudido")
+
+    }
+
+})();

@@ -1,0 +1,18 @@
+let menu = 1
+
+function tigrinho(parametro){
+    return Math.floor(Math.randon());
+
+
+}
+
+switch (menu){
+case 1:
+    console.log("Acessou o menu 1")
+
+case 2:
+    console.log("Acessou o menu 2")
+   
+default:
+    console.log("Não acessou nenhum menu")
+}

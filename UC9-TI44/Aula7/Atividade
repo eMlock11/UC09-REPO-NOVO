@@ -1,0 +1,19 @@
+const input = require("../input");
+
+(async () => {
+
+    let num = 0
+
+    while (coiso == "sim")
+
+        console.log("Digite (sim) ou (não)")
+
+        let coiso = await input()
+
+        num++
+
+        console.log(num)
+
+    
+
+})();

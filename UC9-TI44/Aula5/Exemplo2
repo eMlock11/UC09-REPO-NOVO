@@ -1,0 +1,19 @@
+let menu = 1
+
+function tigrinho(parametro){
+    return Math.floor(Math.random()*10);
+
+
+}
+let sorteado = tigrinho()
+
+switch (true){
+case sorteado > 1 :
+    console.log("Parabéns a virginia fonseca não te roubou dessa vez")
+
+case sorteado == 2:
+    console.log("Parabéns a virginia quase te roubou")
+   
+default:
+    console.log("A virginia te roubou parabéns")
+}

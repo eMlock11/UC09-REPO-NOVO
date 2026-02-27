@@ -1,0 +1,25 @@
+const input = require("../input");
+
+(async () => {
+
+let sorteio 
+let coiso
+let tentativas = 0
+
+do{
+
+    sorteio =  Math.floor (Math.random()*10);
+
+    console.log("Escolha um número de 1 a 10: ")
+
+    coiso = Number (await input())
+
+    tentativas++
+
+    console.log("Errou seu burro")
+
+}while(coiso =! sorteio && tentativas < 10){}
+
+   
+
+})(); 

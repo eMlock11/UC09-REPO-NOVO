@@ -1,0 +1,51 @@
+function pedromatematicas (a,b){
+
+    return a * b
+}
+
+function pedromatematicas1 (a,b){
+
+    return a / b
+}
+
+function pedromatematicas2 (a,b){
+
+    return a + b
+}
+
+function pedromatematicas3 (a,b){
+
+    return a - b
+}
+
+const input = require('../input');
+
+(async ()=>{
+
+    console.log("Que tipo de operação você quer fazer? : \n1 - Multiplicação \n2 - Divisão \n3 - Soma \n4 - Subtração ")
+
+    let esc = await input()
+
+    let funcao;
+
+    switch(esc){
+
+        case`1` : funcao = pedromatematicas; break
+
+        case`2` : funcao = pedromatematicas1; break
+
+        case`3` : funcao = pedromatematicas2; break
+
+        case`4` : funcao = pedromatematicas3; break
+
+    }if(Number(esc)>4)return
+
+    let a = Number ( await input())
+
+    let b = Number ( await input())
+
+    let result = funcao(a, b)
+    
+    console.log("O resultado é: "+result)
+
+})()

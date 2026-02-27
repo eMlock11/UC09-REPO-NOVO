@@ -1,0 +1,11 @@
+function pedromatematicas (a,b){
+
+    let s = a +b
+    return 3
+
+}
+
+let as = pedromatematicas(1,2)
+
+console.log("1 + 1 é: "+as)
+
