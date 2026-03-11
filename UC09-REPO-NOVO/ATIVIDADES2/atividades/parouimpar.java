@@ -14,7 +14,7 @@ public class parouimpar {
 
         }
 
-            System.out.println("O matheus tem grandes semelhanças com um macaco prego");
+            System.out.println("O matheus tem grandes semelhanças com um astralopitéco");
     
     }
 }
